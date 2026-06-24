@@ -40,7 +40,7 @@ Shift = Sprint \
 2 = Equip Plasma Rifle
 
 Mouse = Aim \
-Left Click = Shoot \
+Left Click = Shoot
 
 # Features
 6 Bosses of Increasing Difficulty \
