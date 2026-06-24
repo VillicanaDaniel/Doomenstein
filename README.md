@@ -37,7 +37,7 @@ A	= Move Left \
 D	= Move Right \
 Shift = Sprint \
 1 = Equip Pistol \
-2 = Equip Plasma Rifle \
+2 = Equip Plasma Rifle
 
 Mouse = Aim \
 Left Click = Shoot \
