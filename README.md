@@ -20,7 +20,7 @@ Professor Butler hates Pokemon because he hates fun. However, professor Squirrel
 ## Keyboard
 ### Attract Controls
 Space	= Start Game \
-ESC	= Exit Application \
+ESC	= Exit Application
 
 ### Overwold Controls
 W	 = Move Up \
@@ -28,7 +28,7 @@ S	= Move Down \
 A	= Move Left \
 D	= Move Right \
 P	= Pause \
-ESC	= Return to Start Screen / Quit \
+ESC	= Return to Start Screen / Quit
 
 ### Battle Controls
 W	 = Move Forward \
@@ -49,6 +49,6 @@ Pesonally made spritework \
 Personally recreated tilesheet \
 Boss State Machine System \
 Keyboard Support \
-Debug Tools for Development \
+Debug Tools for Development
 
-Good luck, pilot. 🫡
+Good luck, soldier. 🫡
