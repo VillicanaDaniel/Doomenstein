@@ -15,7 +15,7 @@ Professor Butler hates Pokemon because he hates fun. However, professor Squirrel
 
 <div align="center">
   
-<img src="./assets/mtSquirrel.png" width="10%" alt="Cherry Blossom Banner"/> \
+<img src="./assets/mtSquirrel.png" width="20%" alt="Cherry Blossom Banner"/> \
 <img src="./assets/DoomensteinShot.png" width="60%" alt="Cherry Blossom Banner"/>
 
 </div>
