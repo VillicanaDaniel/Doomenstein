@@ -1,0 +1,35 @@
+<Definitions>
+  <MapDefinition name="TestMap" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8_v3.png" spriteSheetCellCount="8,8">
+	  <Layers>
+		  <Layer image="Data/Maps/BattleLayer1.png" />
+		  <Layer image="Data/Maps/BattleLayer3.png" />
+		  <Layer image="Data/Maps/AirMap.png" />
+		  <Layer image="Data/Maps/AirMap.png" />
+		  <Layer image="Data/Maps/AirMap.png" />
+		  <Layer image="Data/Maps/AirMap.png" />
+	  </Layers>
+    <SpawnInfos>
+		<SpawnInfo actor="SpawnPoint" faction="Marine" position="25.5,16.0,0.0" orientation="180.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+  <MapDefinition name="MPMap" image="Data/Maps/MPMap.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+    <SpawnInfos>
+      <SpawnInfo actor="Demon" faction="Demon" position="15.0,7.0,0.0" />
+      <SpawnInfo actor="Demon" faction="Demon" position="20.0,15.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,30.5,0.0" orientation="315.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,30.5,0.0" orientation="225.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+	<MapDefinition name="EmptyMap" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8_v3.png" spriteSheetCellCount="8,8">
+		<Layers>
+			<Layer image="Data/Maps/OverworldLayer1.png" />
+		</Layers>
+		<SpawnInfos>
+			<SpawnInfo actor="playerTrainer" faction="Marine" position="6.5,16.5,0.0" />
+			<SpawnInfo actor="Squirrel" faction="Trainer" position="28.5,16.5,0.0" orientation="180.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+</Definitions>
+

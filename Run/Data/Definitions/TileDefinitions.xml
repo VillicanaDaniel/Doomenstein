@@ -1,0 +1,32 @@
+<Definitions>
+  <TileDefinition name="StoneFloor" isSolid="false" mapImagePixelColor="0,0,0" floorSpriteCoords="2,1" ceilingSpriteCoords="2,6"/>
+  <TileDefinition name="WoodFloor" isSolid="false" mapImagePixelColor="48,48,48" floorSpriteCoords="0,6" ceilingSpriteCoords="2,6"/>
+  <TileDefinition name="StoneWall" isSolid="true" mapImagePixelColor="255,255,255" wallSpriteCoords="5,3"/>
+	<TileDefinition name="CaveWallLeft" isSolid="true" mapImagePixelColor="100,255,255" wallSpriteCoords="6,7"/>
+	<TileDefinition name="CaveWallRight" isSolid="true" mapImagePixelColor="100,100,255" wallSpriteCoords="6,6"/>
+  <TileDefinition name="WoodWall" isSolid="true" mapImagePixelColor="143,136,82" wallSpriteCoords="1,6"/>
+  <TileDefinition name="OpenGrass" isSolid="false" mapImagePixelColor="0,128,0" floorSpriteCoords="2,1" ceilingSpriteCoords="4,3"/>
+  <TileDefinition name="OpenDirt" isSolid="false" mapImagePixelColor="127,51,0" floorSpriteCoords="5,2" ceilingSpriteCoords="4,3"/>
+	<TileDefinition name="OpenAir" isSolid="false" isOpenAir="true" mapImagePixelColor="255,0,255"/>
+	
+	
+	
+  <TileDefinition name="SnowFloor" isSolid="false" mapImagePixelColor="0,0,100" floorSpriteCoords="4,3" ceilingSpriteCoords="2,6"/>
+	<TileDefinition name="SnowLeftCliff" isSolid="false" isWalkable="false" mapImagePixelColor="0,0,200" floorSpriteCoords="5,3" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowRightCliff" isSolid="false" isWalkable="false" mapImagePixelColor="0,0,255" floorSpriteCoords="6,3" ceilingSpriteCoords="2,7"/>
+	
+	<TileDefinition name="SnowFrontCliff" isSolid="false" isWalkable="false" mapImagePixelColor="0,0,150" floorSpriteCoords="4,5" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowBackCliff" isSolid="false" isWalkable="false" mapImagePixelColor="0,0,250" floorSpriteCoords="5,5" ceilingSpriteCoords="2,7"/>
+
+	<TileDefinition name="SnowLeftCave" isSolid="false" isWalkable="false" mapImagePixelColor="50,0,0" floorSpriteCoords="5,6" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowRightCave" isSolid="false" isWalkable="false" mapImagePixelColor="150,0,0" floorSpriteCoords="4,6" ceilingSpriteCoords="2,7"/>
+	
+	<TileDefinition name="SnowLeftCliffCorner" isSolid="false" isWalkable="false" mapImagePixelColor="0,100,0" floorSpriteCoords="7,3" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowRightCliffCorner" isSolid="false" isWalkable="false" mapImagePixelColor="0,200,0" floorSpriteCoords="7,4" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowLeftCliffCornerFlipped" isSolid="false" isWalkable="false" mapImagePixelColor="0,75,0" floorSpriteCoords="7,6" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowRightCliffCornerFlipped" isSolid="false" isWalkable="false" mapImagePixelColor="0,50,0" floorSpriteCoords="7,5" ceilingSpriteCoords="2,7"/>
+	
+	<TileDefinition name="SnowLeftStair" isSolid="false" mapImagePixelColor="100,0,0" floorSpriteCoords="4,4" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowStair" isSolid="false" mapImagePixelColor="200,0,0" floorSpriteCoords="5,4" ceilingSpriteCoords="2,7"/>
+	<TileDefinition name="SnowRightStair" isSolid="false" mapImagePixelColor="255,0,0" floorSpriteCoords="6,4" ceilingSpriteCoords="2,7"/>
+</Definitions>

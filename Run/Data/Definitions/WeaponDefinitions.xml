@@ -1,0 +1,64 @@
+<Definitions>
+  <!-- Pistol -->
+  <WeaponDefinition name="Pistol" refireTime="0.75" rayCount="1" rayCone="0.0" rayRange="40.0" rayDamage="20.0~20.0" rayImpulse="4.0">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="256,256" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/Weapon_Pistol.png" cellCount="5,1" secondsPerFrame="0.1" startFrame="0" endFrame="0"/>
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/Weapon_Pistol.png" cellCount="5,1" secondsPerFrame="0.1" startFrame="1" endFrame="3" />
+    </HUD>
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/PistolFire.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!-- Plasma Rifle -->
+  <WeaponDefinition name="PlasmaRifle" refireTime="0.1" projectileCount="1" projectileActor="PlasmaProjectile" projectileCone="10.0" projectileSpeed="6.0">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="256,256" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/Weapon_Plasma.png" cellCount="4,1" secondsPerFrame="0.125" startFrame="0" endFrame="0" />
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/Weapon_Plasma.png" cellCount="4,1" secondsPerFrame="0.125" startFrame="1" endFrame="2" />
+    </HUD>
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!-- Demon Melee -->
+  <WeaponDefinition name="DemonMelee" refireTime="2.0" meleeCount="1" meleeArc="180.0" meleeRange="0.75" meleeDamage="10.0~20.0" meleeImpulse="2.0">
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/DemonAttack.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+	<!-- Pokemon Projectile -->
+	<WeaponDefinition name="PokemonWeapon" refireTime="1.5" projectileCount="1" projectileActor="Electro Ball" projectileCone="5.0" projectileSpeed="5.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+	<!-- Pokemon Music Projectile -->
+	<WeaponDefinition name="MusicWeapon" refireTime="1.0" projectileCount="1" projectileActor="Music Note" projectileCone="5.0" projectileSpeed="7.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+	<!-- Pokemon Music Projectile 2-->
+	<WeaponDefinition name="MusicWeapon2" refireTime="0.6" projectileCount="1" projectileActor="Music Note 2" projectileCone="5.0" projectileSpeed="8.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+	<!-- Alakazam Projectile-->
+	<WeaponDefinition name="AlakazamWeapon" refireTime="0.3" projectileCount="1" projectileActor="Psychic" projectileCone="5.0" projectileSpeed="12.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+	<!-- Porygon Projectile -->
+	<WeaponDefinition name="PorygonWeapon" refireTime="0.4" projectileCount="1" projectileActor="Electro Ball" projectileCone="2.0" projectileSpeed="16.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+	<!-- Gengar Projectile -->
+	<WeaponDefinition name="GengarWeapon" refireTime="1.0" projectileCount="0" projectileActor="Shadow Ball" projectileCone="2.0" projectileSpeed="3.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+</Definitions>
