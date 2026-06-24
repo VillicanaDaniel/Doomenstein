@@ -2,7 +2,7 @@
 
 # DOOMENSTEIN
 
-<img src="./assets/StarshipTitleScreen.png" width="100%" alt="Cherry Blossom Banner"/>
+<img src="./assets/attractScreen.png" width="100%" alt="Cherry Blossom Banner"/>
 
 A first-person shooter inspired by bullet hell mechanics. take on a series of progressively difficult bosses and bullet patterns to reach the end of the game. Yes, that one ERROR_AND_DIE is on purpose.
 </div>
@@ -13,7 +13,7 @@ A first-person shooter inspired by bullet hell mechanics. take on a series of pr
 
 Professor Butler hates Pokemon because he hates fun. However, professor Squirrel wants to take him on in a Pokemon battle to determine who the best SD professor is once and for all. However, Butler has brought a suprise weapon to the encounter.
 
-<img src="./assets/StarshipScreenShot.png" width="100%" alt="Cherry Blossom Banner"/>
+<img src="./assets/DoomensteinShot.png" width="100%" alt="Cherry Blossom Banner"/>
 
 ---
 # Controls
