@@ -13,6 +13,7 @@ A first-person shooter inspired by bullet hell mechanics. take on a series of pr
 
 Professor Butler hates Pokemon because he hates fun. However, professor Squirrel wants to take him on in a Pokemon battle to determine who the best SD professor is once and for all. However, Butler has brought a suprise weapon to the encounter.
 
+<img src="./assets/mtSquirrel.png" width="100%" alt="Cherry Blossom Banner"/>
 <img src="./assets/DoomensteinShot.png" width="100%" alt="Cherry Blossom Banner"/>
 
 ---
